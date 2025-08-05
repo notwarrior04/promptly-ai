@@ -101,7 +101,6 @@
   font-weight: bold;
 }
 
-
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .chat-container {
