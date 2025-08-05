@@ -74,7 +74,7 @@ const ChatWidget = () => {
     const context = `Website: ${url}\nLanguage: ${language || "None"}`;
 
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("https://promptly-j9n1.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
