@@ -91,15 +91,19 @@
   background-color: #007bff; /* Blue */
   color: white;
   border: none;
-  padding: 8px 12px;
+  padding: 0.9rem;
   margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 12px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-weight: bold;
+  width: 100%;
+  font-size: 1.2rem;
+  box-sizing: border-box;
 }
+
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
